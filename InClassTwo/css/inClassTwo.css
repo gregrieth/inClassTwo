@@ -1,0 +1,40 @@
+h1 {
+  animation-name: animation;
+  animation-duration: 5s;
+}
+
+@keyframes animation {
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+div:hover {
+  height: 200px;
+  width: 50px;
+  background-color: orange;
+}
+
+p {
+  color: green;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+p:hover {
+  color: red;
+}
